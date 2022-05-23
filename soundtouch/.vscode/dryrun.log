@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/philips/Documents/Work/AudioTest/soundtouch'
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/philips/Documents/Work/AudioTest/soundtouch/config/missing aclocal-1.16 -I config/m4
+ 
+ cd . && /bin/bash /home/philips/Documents/Work/AudioTest/soundtouch/config/missing automake-1.16 --foreign
+ 
+make: *** Deleting file 'Makefile.in'
+
+make: *** [Makefile:410: Makefile.in] Interrupt
+
